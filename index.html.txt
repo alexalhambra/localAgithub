@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fútbol - Página de Ejemplo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            color: #003366;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #003366;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .team {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bienvenido al Mundo del Fútbol</h1>
+</header>
+
+<nav>
+    <a href="#equipos">Equipos</a>
+    <a href="#noticias">Noticias</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<main>
+    <section id="equipos">
+        <h2>Equipos Destacados</h2>
+        <div class="team">
+            <h3>FC Barcelona</h3>
+            <p>El FC Barcelona es un club de fútbol español con sede en Barcelona, Cataluña. Fundado en 1899, es uno de los clubes más exitosos de la historia.</p>
+        </div>
+        <div class="team">
+            <h3>Real Madrid</h3>
+            <p>El Real Madrid Club de Fútbol es un club de fútbol profesional con sede en Madrid, fundado en 1902. Es uno de los equipos más laureados del mundo.</p>
+        </div>
+        <div class="team">
+            <h3>Boca Juniors</h3>
+            <p>Boca Juniors es un club de fútbol argentino con sede en Buenos Aires. Fundado en 1905, es uno de los clubes más populares y exitosos de América del Sur.</p>
+        </div>
+    </section>
+
+    <section id="noticias">
+        <h2>Últimas Noticias</h2>
+        <p>El fútbol está lleno de sorpresas y cambios. ¡Mantente al tanto de las últimas noticias sobre tu equipo favorito!</p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Fútbol Fan Page</p>
+</footer>
+
+</body>
+</html>
